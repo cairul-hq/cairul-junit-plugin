@@ -1,5 +1,5 @@
-import { list, option, repeat, reportsIn, selectors, value } from '@cairul/plugin-kit/runner';
-import { junit } from '@cairul/plugin-kit/reports';
+import { list, option, repeat, reportsIn, selectors, value } from '@cairul/pdk/runner';
+import { junit } from '@cairul/pdk/reports';
 
 export default {
   command: ['junit'],
